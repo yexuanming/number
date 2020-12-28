@@ -1,0 +1,33 @@
+{
+    "name": "zhaizhishe/num2nmb",
+    "description": "number to RMB",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yexuanming",
+            "email": "1654496220@qq.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Barryvdh\\Debugbar\\ServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Fanly\\Num2nmb\\": "src/"
+        },
+        "classmap": [
+            "packages/fanly/num2nmb/src"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fanly\\Num2nmb\\": "src/"
+        }
+    }
+}
